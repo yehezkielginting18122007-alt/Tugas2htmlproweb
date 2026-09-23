@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tugas2.html Formulir Pendaftaran</title>
+
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+
+    <form action="#" method="post">
+
+        <fieldset>
+
+            <legend>Formulir Pendaftaran</legend>
+
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Masukkan password">
+
+
+            <label for="kelas">Kelas</label>
+            <select id="kelas" name="kelas">
+                <option value="">-- Pilih Kelas --</option>
+                <option value="X">X</option>
+                <option value="XI">XI</option>
+                <option value="XII">XII</option>
+            </select>
+
+
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" placeholder="Masukkan alamat lengkap"></textarea>
+
+
+            <div class="checks">
+
+                <p>Jenis Kelamin</p>
+
+                <label>
+                    <input type="radio" name="jenis_kelamin" value="laki-laki">
+                    Laki-laki
+                </label>
+
+                <label>
+                    <input type="radio" name="jenis_kelamin" value="perempuan">
+                    Perempuan
+                </label>
+
+            </div>
+
+
+            <div class="checks">
+
+                <p>Hobi</p>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="fotografi">
+                    Fotografi
+                </label>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="musik">
+                    Musik
+                </label>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="olahraga">
+                    Olahraga
+                </label>
+
+                <label>
+                    <input type="checkbox" name="hobi" value="membaca">
+                    Membaca
+                </label>
+
+            </div>
+
+
+            <input type="submit" value="Kirim">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
